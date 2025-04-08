@@ -4,41 +4,40 @@
 ## BUSINESS TASK STATEMENT
 **To Evalauste the inbound crossings at the U.S.-Canada and the U.S.-Mexico Border at the Port Level.** 
 
-**This is a case study for my Google Data Analytics certificate Course**
 
 ## EXECUTIVE SUMMARY
-Cyclistic  is a bike-share program owned by Cyclistics Bikeshare Company with more than 5,800 bicycles and 600 docking stations. 
-They also have annual members and casual riders. 
-Annual members subscribe annually while casual riders just hire bikes at will. 
-Cyclistics wants to reduce the cost of advertising by converting casual riders to annual members.
-
+The Bureau of Transportation Statistics (BTS) Border Crossing Data provides summary statistics for inbound crossings at the U.S.-Canada and the U.S.-Mexico border at the port level. 
+Data are available for trucks, trains, containers, buses, personal vehicles, passengers, and pedestrians. 
+Border crossing data are collected at ports of entry by U.S. Customs and Border Protection (CBP). 
+The data reflect the number of vehicles, containers, passengers, or pedestrians entering the United States.
 
 ### MAJOR POINT FOR ANALYSIS
-1.  Comparing the average ride length of annual members and casual riders by month and by day.
-2.  Comparing the number of rides of annual members and casual riders by month and by day.
-3.  Checking the most preferred rideable bike type mostly used by both parties.
+1.  To examine both US-Canada and US-Mexico
+2.  Determine which borders have major crossings and possible reasons
+3.  Check the media to which people cross borders 
 
 ### DATA SOURCE
-**[Divvy-tripdata Link](https://divvy-tripdata.s3.amazonaws.com/index.html)**
+**[US Border Crossing Dataset Link](https://catalog.data.gov/dataset/border-crossing-entry-data-683ae)**
 
 
 ## ANALYSIS PROCEDURE
-The datasets used were 12 since divvy-tripdata recorded their activities every month.
-These datasets were converted from CSV files to Excel Workbook files.
 
-### EXPLORATORY DATA ANALYSIS (EDA)
-I carried out an exploratory data analysis on the data using SQL Server.
-1.  Uploading the datasets.
-2.  Creating a table.
-3.  Inserting and combining the whole data using 'INSERT INTO' and 'UNION ALL' respectively.
-4.  Selecting the relevant data needed for the analysis.
-5.  Doing a few aggregations and using CTE to calculate other remaining values.
+### DATA PREPARATION, CLEANING AND EXPLORATORY DATA ANALYSIS (EDA) USING EXCEL AND POWER QUERY
+1. First, we had these columns (Port Name, State, Port Code, Border, Date, Measure, Value, Latitude, Longitude, Point) before analysis on Excel.
+2. I checked for null or blank rows. I had non
+3. I checked and removed duplicate values
+4. Uploading the datasets on Power Query.
+5. I removed the columns to only the ones relevant for the analysis (Port Name, State,	Border, Date, Measure, Latitude, Longitude).
+6. The measure column has related fields, so I combined related ones to form one field to make the analysis easy to understand and to avoid confusion
+7. The columns were formatted to the suitable data types.
+8. The cleaned datasets as now uploaded to Tableau for proper analaysis.
 
+9. 
 **Details are stated in the SQL Query:** **[SQL Server Query Link](bikeshare_combine_dataset.sql)**
 
 
 
-### VISUALIZATION ON EXCEL
+### VISUALIZATION ON TABLEAU
 ![image](bikeshare_excel.PNG)
 
 
