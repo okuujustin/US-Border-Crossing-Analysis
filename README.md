@@ -2,7 +2,7 @@
 # US BORDER CROSSING ANALYSIS
 
 ## BUSINESS TASK STATEMENT
-**To Evalauste the inbound crossings at the U.S.-Canada and the U.S.-Mexico Border at the Port Level.** 
+**To Evaluate the inbound crossings at the U.S.-Canada and the U.S.-Mexico Border at the Port Level.** 
 
 
 ## EXECUTIVE SUMMARY
