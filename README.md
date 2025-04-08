@@ -43,20 +43,18 @@ The data reflect the number of vehicles, containers, passengers, or pedestrians 
 **[Tabeau Visualization Link](https://public.tableau.com/views/USBORDERCROSSINGDASHBOARD/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ## MAJOR FINDINGS
-1.  Bike usage increases across the month as we into summer and decreases as we move into winter. The number of rides used by annual members is more compared to casual riders.
-2. Casual riders use bikes more on the weekend, which suggests that the annual members might be 9-5 workers who use bikes more on weekdays.
-3.  As casual riders use more bikes on weekends, they also spend more time riding especially on the weekends.
-4.  We see that casual riders spend more time riding per month.
-5.  Docked bikes are loved by casual riders since they used all the docked bikes as they were introduced.
+1. There were more ports within the US-Canada border compared to the US-Mexico border, indicating more movement and activities within the US-Canada border.
+2. Generally, truck border movement was found to be the highest in both the US-Canada and the US-Mexico border, indicating that surge of economic activities between the US and Canada and the US and Mexico.
+3. People mainly cross the border using a personal vehicle, buses, and trains, possibly for vacations, recreation, relocation, education, or work. Pedestrians were also seen across all the port borders.
+4. On the US-Canada border, North Dakota had the highest border activities compared to Idaho, which had the lowest activities. However, for the US-Mexico border, Texas has the highest activities compared to New Mexico, which has the lowest.
+
 
 ## MY RECOMMENDATIONS
-Converting casual riders to annual riders will boost the revenue of Cyclistics Bikeshare Company. 
 
 These are my recommendations:
-1.  Promos and discounts should be given to casual riders to enable them to become annual riders. This will help to boost business on the weekends.
-2. The docked bike's introduction was beautiful. This can be used to attract more casual riders to become annual members.
-3.  More bikes should be procured and more dock stations to serve more customers in Chicago.
-
+1.  Abolish the Pedestrian crossings at the border, as they can be dangerous.
+2.  Subsidize transport costs to help everyone utilize the means of transportation provided
+3.  More business activities, investment, and development should happen mostly in the US-Canada to increase revenue. The US-Mexico border should also be paid attention to
 
 
 
