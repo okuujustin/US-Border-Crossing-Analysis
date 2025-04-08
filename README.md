@@ -27,13 +27,12 @@ The data reflect the number of vehicles, containers, passengers, or pedestrians 
 2. I checked for null or blank rows. I had non
 3. I checked and removed duplicate values
 4. Uploading the datasets on Power Query.
-5. I removed the columns to only the ones relevant for the analysis (Port Name, State,	Border, Date, Measure, Latitude, Longitude).
+5. I removed the columns to only those relevant for the analysis (Port Name, State,	Border, Date, Measure, Latitude, Longitude).
 6. The measure column has related fields, so I combined related ones to form one field to make the analysis easy to understand and to avoid confusion
 7. The columns were formatted to the suitable data types.
-8. The cleaned datasets as now uploaded to Tableau for proper analaysis.
+8. The cleaned dataset was uploaded to Tableau for proper analysis.
 
-9. 
-**Details are stated in the SQL Query:** **[SQL Server Query Link](bikeshare_combine_dataset.sql)**
+**[CLEANED DATASET FOR ANALYSIS](US-Border-Crossing-Cleaned-Dataset.xlsx)**
 
 
 
@@ -43,9 +42,6 @@ The data reflect the number of vehicles, containers, passengers, or pedestrians 
 
 
 
-
-### **I extended my analysis on Tableau**
-![image](tab.PNG)
 
 **[Tabeau Visualization Link](https://public.tableau.com/views/2023CyclisticBikeshare/CyclisticBikeshareAfor2023?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
